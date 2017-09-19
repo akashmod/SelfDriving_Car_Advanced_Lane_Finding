@@ -97,19 +97,20 @@ However, for the first image that the pipeline takes in, it has no information f
 
 #### 5. Calculation of the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-The calculation of curvature of the lane lines was done in the last cell in the python notebook Advanced_Lane_Finding_P4.ipynb. I have used the formula ![alt text][image7] for the calculation of the lanes lines on the lane pixels closest to the vehicle for both the left lane and the right lane. The mean of the two values denoted the actual radius of curvature of the vehicle. The position of the vehicle was calculated by calculating the midpoint of the lane and subtracting it from 640, i.e. half of the horizontal size of the image. The value found in pixels was converted to m.
+![alt text][image7] 
+The calculation of curvature of the lane lines was done in the last cell in the python notebook Advanced_Lane_Finding_P4.ipynb. I have used the formula shown above for the calculation of the lanes lines on the lane pixels closest to the vehicle for both the left lane and the right lane. The mean of the two values denoted the actual radius of curvature of the vehicle. The position of the vehicle was calculated by calculating the midpoint of the lane and subtracting it from 640, i.e. half of the horizontal size of the image. The value found in pixels was converted to m.
 
 #### 6. The Final Image.
 
 The final image was plotted using matplotlib library and was seen to clearly show the marked lane lines, the radius of curvature and the position of the vehicle from the center. 
 
-![alt text][image7]
+![alt text][image8]
 
 ---
 
 ### Pipeline (video)
 
-#### 1.The Link to the Final Video
+#### The Link to the Final Video
 
 Here's a [link to my video result](./final_output_video.mp4)
 
@@ -117,7 +118,7 @@ Here's a [link to my video result](./final_output_video.mp4)
 
 ### Discussion
 
-#### 1. Challenges faced in the project and future work.
+#### Challenges faced in the project and future work.
 
 The most challenging areas in the project for me was the thresholding of the source image to create a binary image. The thresholding had to be done in such a way that the lane lines were detected effectively and the least amount of noise was involved from the surrounding objects in the image. After several iterations, I finally arrived at the sobel x gradient thresholding and the color saturation thresholding to be used for the images. 
 
