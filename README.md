@@ -2,7 +2,7 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
-In this project, my goal was to write a software pipeline to identify the lane boundaries in a video and a detailed writeup of the project.  Please find the [writeup report](https://github.com/akashmod/Self_Driving_Car_Advanced_Lane_Finding/blob/master/writeup_template.md) for the project. 
+In this project, my goal was to write a software pipeline to identify the lane boundaries in a video and a detailed writeup of the project.  Please find the [writeup report](https://github.com/akashmod/Self_Driving_Car_Advanced_Lane_Finding/blob/master/writeup_report.md) for the project. 
 
 The Writeup:
 ---
